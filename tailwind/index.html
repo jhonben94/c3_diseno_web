@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Escritor | Mockup Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-xl font-bold">LOGO</div>
+      <nav class="space-x-4 text-sm">
+        <a href="#" class="hover:underline">Inicio</a>
+        <a href="#" class="hover:underline">Sobre mí</a>
+        <a href="#" class="hover:underline">Libros</a>
+        <a href="#" class="hover:underline">Blog</a>
+        <a href="#" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gray-300 py-20 text-center">
+    <div class="max-w-2xl mx-auto">
+      <h1 class="text-2xl md:text-3xl font-semibold mb-6 italic">
+        “La literatura es la manera más elegante de decir la verdad.”
+      </h1>
+      <div class="space-x-4">
+        <button class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-900">Leer más sobre el autor</button>
+        <button class="border border-gray-800 text-gray-800 px-5 py-2 rounded hover:bg-gray-200">Ver libros publicados</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Libros -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-xl font-bold text-center mb-10">Libros Destacados</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white shadow rounded p-4 text-center">
+          <div class="bg-gray-300 h-32 mb-4"></div>
+          <h3 class="font-semibold">Título</h3>
+          <p class="text-sm text-gray-600 mb-2">Breve descripción</p>
+          <button class="text-blue-600 hover:underline text-sm">Ver más</button>
+        </div>
+        <div class="bg-white shadow rounded p-4 text-center">
+          <div class="bg-gray-300 h-32 mb-4"></div>
+          <h3 class="font-semibold">Año</h3>
+          <p class="text-sm text-gray-600 mb-2">Breve descripción</p>
+          <button class="text-blue-600 hover:underline text-sm">Ver más</button>
+        </div>
+        <div class="bg-white shadow rounded p-4 text-center">
+          <div class="bg-gray-300 h-32 mb-4"></div>
+          <h3 class="font-semibold">Tercero</h3>
+          <p class="text-sm text-gray-600 mb-2">Breve descripción</p>
+          <button class="text-blue-600 hover:underline text-sm">Ver más</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section class="py-16 bg-white">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-xl font-bold mb-6">Últimos Artículos del Blog</h2>
+      <ul class="space-y-2 text-sm text-left">
+        <li><strong>1 JUL 2025:</strong> Escribir en tiempos digitales</li>
+        <li><strong>28 JUN 2025:</strong> Mis 5 libros favoritos</li>
+      </ul>
+      <button class="mt-6 px-4 py-2 border border-gray-800 text-gray-800 rounded hover:bg-gray-100">Ir al blog</button>
+    </div>
+  </section>
+
+  <!-- Suscripción -->
+  <section class="py-16 bg-gray-200">
+    <div class="max-w-xl mx-auto px-4 text-center">
+      <p class="mb-4 font-medium">¿Querés recibir novedades?</p>
+      <div class="flex flex-col sm:flex-row gap-2 justify-center">
+        <input type="email" placeholder="Correo electrónico" class="px-4 py-2 rounded border border-gray-400 w-full sm:w-auto">
+        <button class="bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-900">Suscribirme</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
